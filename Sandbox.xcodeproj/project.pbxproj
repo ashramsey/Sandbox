@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72F7B58A1399D3CD0025BA50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7B5891399D3CD0025BA50 /* UIKit.framework */; };
+		72F7B58C1399D3CD0025BA50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7B58B1399D3CD0025BA50 /* Foundation.framework */; };
+		72F7B58E1399D3CD0025BA50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7B58D1399D3CD0025BA50 /* CoreGraphics.framework */; };
+		72F7B5941399D3CD0025BA50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72F7B5921399D3CD0025BA50 /* InfoPlist.strings */; };
+		72F7B5971399D3CD0025BA50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7B5961399D3CD0025BA50 /* main.m */; };
+		72F7B59A1399D3CD0025BA50 /* SandboxAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7B5991399D3CD0025BA50 /* SandboxAppDelegate.m */; };
+		72F7B59D1399D3CD0025BA50 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72F7B59B1399D3CD0025BA50 /* MainWindow.xib */; };
+		72F7B5A01399D3CD0025BA50 /* SandboxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7B59F1399D3CD0025BA50 /* SandboxViewController.m */; };
+		72F7B5A31399D3CD0025BA50 /* SandboxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72F7B5A11399D3CD0025BA50 /* SandboxViewController.xib */; };
+		72F7B5AA1399D3CD0025BA50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7B5891399D3CD0025BA50 /* UIKit.framework */; };
+		72F7B5AB1399D3CD0025BA50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7B58B1399D3CD0025BA50 /* Foundation.framework */; };
+		72F7B5AC1399D3CD0025BA50 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7B58D1399D3CD0025BA50 /* CoreGraphics.framework */; };
+		72F7B5B41399D3CD0025BA50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72F7B5B21399D3CD0025BA50 /* InfoPlist.strings */; };
+		72F7B5B71399D3CD0025BA50 /* SandboxTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 72F7B5B61399D3CD0025BA50 /* SandboxTests.h */; };
+		72F7B5B91399D3CE0025BA50 /* SandboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7B5B81399D3CE0025BA50 /* SandboxTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72F7B5AD1399D3CD0025BA50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72F7B57C1399D3CD0025BA50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72F7B5841399D3CD0025BA50;
+			remoteInfo = Sandbox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72F7B5851399D3CD0025BA50 /* Sandbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sandbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F7B5891399D3CD0025BA50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		72F7B58B1399D3CD0025BA50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		72F7B58D1399D3CD0025BA50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		72F7B5911399D3CD0025BA50 /* Sandbox-Info.plist */ = {isa = PBXFileReference; path = "Sandbox-Info.plist"; sourceTree = "<group>"; };
+		72F7B5931399D3CD0025BA50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72F7B5951399D3CD0025BA50 /* Sandbox-Prefix.pch */ = {isa = PBXFileReference; path = "Sandbox-Prefix.pch"; sourceTree = "<group>"; };
+		72F7B5961399D3CD0025BA50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		72F7B5981399D3CD0025BA50 /* SandboxAppDelegate.h */ = {isa = PBXFileReference; path = SandboxAppDelegate.h; sourceTree = "<group>"; };
+		72F7B5991399D3CD0025BA50 /* SandboxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandboxAppDelegate.m; sourceTree = "<group>"; };
+		72F7B59C1399D3CD0025BA50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		72F7B59E1399D3CD0025BA50 /* SandboxViewController.h */ = {isa = PBXFileReference; path = SandboxViewController.h; sourceTree = "<group>"; };
+		72F7B59F1399D3CD0025BA50 /* SandboxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandboxViewController.m; sourceTree = "<group>"; };
+		72F7B5A21399D3CD0025BA50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SandboxViewController.xib; sourceTree = "<group>"; };
+		72F7B5A91399D3CD0025BA50 /* SandboxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandboxTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72F7B5B11399D3CD0025BA50 /* SandboxTests-Info.plist */ = {isa = PBXFileReference; path = "SandboxTests-Info.plist"; sourceTree = "<group>"; };
+		72F7B5B31399D3CD0025BA50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		72F7B5B51399D3CD0025BA50 /* SandboxTests-Prefix.pch */ = {isa = PBXFileReference; path = "SandboxTests-Prefix.pch"; sourceTree = "<group>"; };
+		72F7B5B61399D3CD0025BA50 /* SandboxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandboxTests.h; sourceTree = "<group>"; };
+		72F7B5B81399D3CE0025BA50 /* SandboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandboxTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72F7B5821399D3CD0025BA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F7B58A1399D3CD0025BA50 /* UIKit.framework in Frameworks */,
+				72F7B58C1399D3CD0025BA50 /* Foundation.framework in Frameworks */,
+				72F7B58E1399D3CD0025BA50 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F7B5A51399D3CD0025BA50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F7B5AA1399D3CD0025BA50 /* UIKit.framework in Frameworks */,
+				72F7B5AB1399D3CD0025BA50 /* Foundation.framework in Frameworks */,
+				72F7B5AC1399D3CD0025BA50 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72F7B57A1399D3CD0025BA50 = {
+			isa = PBXGroup;
+			children = (
+				72F7B58F1399D3CD0025BA50 /* Sandbox */,
+				72F7B5AF1399D3CD0025BA50 /* SandboxTests */,
+				72F7B5881399D3CD0025BA50 /* Frameworks */,
+				72F7B5861399D3CD0025BA50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72F7B5861399D3CD0025BA50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72F7B5851399D3CD0025BA50 /* Sandbox.app */,
+				72F7B5A91399D3CD0025BA50 /* SandboxTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72F7B5881399D3CD0025BA50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				72F7B5891399D3CD0025BA50 /* UIKit.framework */,
+				72F7B58B1399D3CD0025BA50 /* Foundation.framework */,
+				72F7B58D1399D3CD0025BA50 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72F7B58F1399D3CD0025BA50 /* Sandbox */ = {
+			isa = PBXGroup;
+			children = (
+				72F7B5981399D3CD0025BA50 /* SandboxAppDelegate.h */,
+				72F7B5991399D3CD0025BA50 /* SandboxAppDelegate.m */,
+				72F7B59B1399D3CD0025BA50 /* MainWindow.xib */,
+				72F7B59E1399D3CD0025BA50 /* SandboxViewController.h */,
+				72F7B59F1399D3CD0025BA50 /* SandboxViewController.m */,
+				72F7B5A11399D3CD0025BA50 /* SandboxViewController.xib */,
+				72F7B5901399D3CD0025BA50 /* Supporting Files */,
+			);
+			path = Sandbox;
+			sourceTree = "<group>";
+		};
+		72F7B5901399D3CD0025BA50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72F7B5911399D3CD0025BA50 /* Sandbox-Info.plist */,
+				72F7B5921399D3CD0025BA50 /* InfoPlist.strings */,
+				72F7B5951399D3CD0025BA50 /* Sandbox-Prefix.pch */,
+				72F7B5961399D3CD0025BA50 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72F7B5AF1399D3CD0025BA50 /* SandboxTests */ = {
+			isa = PBXGroup;
+			children = (
+				72F7B5B61399D3CD0025BA50 /* SandboxTests.h */,
+				72F7B5B81399D3CE0025BA50 /* SandboxTests.m */,
+				72F7B5B01399D3CD0025BA50 /* Supporting Files */,
+			);
+			path = SandboxTests;
+			sourceTree = "<group>";
+		};
+		72F7B5B01399D3CD0025BA50 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72F7B5B11399D3CD0025BA50 /* SandboxTests-Info.plist */,
+				72F7B5B21399D3CD0025BA50 /* InfoPlist.strings */,
+				72F7B5B51399D3CD0025BA50 /* SandboxTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72F7B5841399D3CD0025BA50 /* Sandbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F7B5BC1399D3CE0025BA50 /* Build configuration list for PBXNativeTarget "Sandbox" */;
+			buildPhases = (
+				72F7B5811399D3CD0025BA50 /* Sources */,
+				72F7B5821399D3CD0025BA50 /* Frameworks */,
+				72F7B5831399D3CD0025BA50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sandbox;
+			productName = Sandbox;
+			productReference = 72F7B5851399D3CD0025BA50 /* Sandbox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72F7B5A81399D3CD0025BA50 /* SandboxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72F7B5BF1399D3CE0025BA50 /* Build configuration list for PBXNativeTarget "SandboxTests" */;
+			buildPhases = (
+				72F7B5A41399D3CD0025BA50 /* Sources */,
+				72F7B5A51399D3CD0025BA50 /* Frameworks */,
+				72F7B5A61399D3CD0025BA50 /* Resources */,
+				72F7B5A71399D3CD0025BA50 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72F7B5AE1399D3CD0025BA50 /* PBXTargetDependency */,
+			);
+			name = SandboxTests;
+			productName = SandboxTests;
+			productReference = 72F7B5A91399D3CD0025BA50 /* SandboxTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72F7B57C1399D3CD0025BA50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = ashramsey;
+			};
+			buildConfigurationList = 72F7B57F1399D3CD0025BA50 /* Build configuration list for PBXProject "Sandbox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 72F7B57A1399D3CD0025BA50;
+			productRefGroup = 72F7B5861399D3CD0025BA50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72F7B5841399D3CD0025BA50 /* Sandbox */,
+				72F7B5A81399D3CD0025BA50 /* SandboxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72F7B5831399D3CD0025BA50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F7B5941399D3CD0025BA50 /* InfoPlist.strings in Resources */,
+				72F7B59D1399D3CD0025BA50 /* MainWindow.xib in Resources */,
+				72F7B5A31399D3CD0025BA50 /* SandboxViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F7B5A61399D3CD0025BA50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F7B5B41399D3CD0025BA50 /* InfoPlist.strings in Resources */,
+				72F7B5B71399D3CD0025BA50 /* SandboxTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72F7B5A71399D3CD0025BA50 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72F7B5811399D3CD0025BA50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F7B5971399D3CD0025BA50 /* main.m in Sources */,
+				72F7B59A1399D3CD0025BA50 /* SandboxAppDelegate.m in Sources */,
+				72F7B5A01399D3CD0025BA50 /* SandboxViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72F7B5A41399D3CD0025BA50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F7B5B91399D3CE0025BA50 /* SandboxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72F7B5AE1399D3CD0025BA50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72F7B5841399D3CD0025BA50 /* Sandbox */;
+			targetProxy = 72F7B5AD1399D3CD0025BA50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72F7B5921399D3CD0025BA50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F7B5931399D3CD0025BA50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		72F7B59B1399D3CD0025BA50 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F7B59C1399D3CD0025BA50 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		72F7B5A11399D3CD0025BA50 /* SandboxViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F7B5A21399D3CD0025BA50 /* en */,
+			);
+			name = SandboxViewController.xib;
+			sourceTree = "<group>";
+		};
+		72F7B5B21399D3CD0025BA50 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72F7B5B31399D3CD0025BA50 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72F7B5BA1399D3CE0025BA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		72F7B5BB1399D3CE0025BA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		72F7B5BD1399D3CE0025BA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sandbox/Sandbox-Prefix.pch";
+				INFOPLIST_FILE = "Sandbox/Sandbox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		72F7B5BE1399D3CE0025BA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sandbox/Sandbox-Prefix.pch";
+				INFOPLIST_FILE = "Sandbox/Sandbox-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		72F7B5C01399D3CE0025BA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sandbox.app/Sandbox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SandboxTests/SandboxTests-Prefix.pch";
+				INFOPLIST_FILE = "SandboxTests/SandboxTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		72F7B5C11399D3CE0025BA50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Sandbox.app/Sandbox";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SandboxTests/SandboxTests-Prefix.pch";
+				INFOPLIST_FILE = "SandboxTests/SandboxTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72F7B57F1399D3CD0025BA50 /* Build configuration list for PBXProject "Sandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F7B5BA1399D3CE0025BA50 /* Debug */,
+				72F7B5BB1399D3CE0025BA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72F7B5BC1399D3CE0025BA50 /* Build configuration list for PBXNativeTarget "Sandbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F7B5BD1399D3CE0025BA50 /* Debug */,
+				72F7B5BE1399D3CE0025BA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72F7B5BF1399D3CE0025BA50 /* Build configuration list for PBXNativeTarget "SandboxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72F7B5C01399D3CE0025BA50 /* Debug */,
+				72F7B5C11399D3CE0025BA50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72F7B57C1399D3CD0025BA50 /* Project object */;
+}
