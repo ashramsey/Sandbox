@@ -1,6 +1,6 @@
 //  SQLiteWrapper.m
-//  Created by Bill Weinman on 2010-09-25.
-//  Copyright 2010 The BearHeart Group, LLC. All rights reserved.
+//  Created by Ashley Ramsey on 4/06/11.
+//  Copyright 2011 ashramsey. All rights reserved.
 
 #import "SQLiteWrapper.h"
 
