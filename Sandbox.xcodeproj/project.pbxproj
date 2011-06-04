@@ -22,6 +22,9 @@
 		72F7B5B41399D3CD0025BA50 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 72F7B5B21399D3CD0025BA50 /* InfoPlist.strings */; };
 		72F7B5B71399D3CD0025BA50 /* SandboxTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 72F7B5B61399D3CD0025BA50 /* SandboxTests.h */; };
 		72F7B5B91399D3CE0025BA50 /* SandboxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7B5B81399D3CE0025BA50 /* SandboxTests.m */; };
+		72F7B5C41399D73C0025BA50 /* SandboxUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7B5C31399D73C0025BA50 /* SandboxUtilities.m */; };
+		72F7B5D11399FFC40025BA50 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 72F7B5D01399FFC40025BA50 /* libsqlite3.dylib */; };
+		72F7B5D4139A007B0025BA50 /* SQLiteWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 72F7B5D3139A007B0025BA50 /* SQLiteWrapper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +42,28 @@
 		72F7B5891399D3CD0025BA50 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		72F7B58B1399D3CD0025BA50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		72F7B58D1399D3CD0025BA50 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		72F7B5911399D3CD0025BA50 /* Sandbox-Info.plist */ = {isa = PBXFileReference; path = "Sandbox-Info.plist"; sourceTree = "<group>"; };
+		72F7B5911399D3CD0025BA50 /* Sandbox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sandbox-Info.plist"; sourceTree = "<group>"; };
 		72F7B5931399D3CD0025BA50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		72F7B5951399D3CD0025BA50 /* Sandbox-Prefix.pch */ = {isa = PBXFileReference; path = "Sandbox-Prefix.pch"; sourceTree = "<group>"; };
+		72F7B5951399D3CD0025BA50 /* Sandbox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sandbox-Prefix.pch"; sourceTree = "<group>"; };
 		72F7B5961399D3CD0025BA50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		72F7B5981399D3CD0025BA50 /* SandboxAppDelegate.h */ = {isa = PBXFileReference; path = SandboxAppDelegate.h; sourceTree = "<group>"; };
+		72F7B5981399D3CD0025BA50 /* SandboxAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandboxAppDelegate.h; sourceTree = "<group>"; };
 		72F7B5991399D3CD0025BA50 /* SandboxAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandboxAppDelegate.m; sourceTree = "<group>"; };
 		72F7B59C1399D3CD0025BA50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		72F7B59E1399D3CD0025BA50 /* SandboxViewController.h */ = {isa = PBXFileReference; path = SandboxViewController.h; sourceTree = "<group>"; };
+		72F7B59E1399D3CD0025BA50 /* SandboxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandboxViewController.h; sourceTree = "<group>"; };
 		72F7B59F1399D3CD0025BA50 /* SandboxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandboxViewController.m; sourceTree = "<group>"; };
 		72F7B5A21399D3CD0025BA50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SandboxViewController.xib; sourceTree = "<group>"; };
 		72F7B5A91399D3CD0025BA50 /* SandboxTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SandboxTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		72F7B5B11399D3CD0025BA50 /* SandboxTests-Info.plist */ = {isa = PBXFileReference; path = "SandboxTests-Info.plist"; sourceTree = "<group>"; };
+		72F7B5B11399D3CD0025BA50 /* SandboxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SandboxTests-Info.plist"; sourceTree = "<group>"; };
 		72F7B5B31399D3CD0025BA50 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		72F7B5B51399D3CD0025BA50 /* SandboxTests-Prefix.pch */ = {isa = PBXFileReference; path = "SandboxTests-Prefix.pch"; sourceTree = "<group>"; };
+		72F7B5B51399D3CD0025BA50 /* SandboxTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SandboxTests-Prefix.pch"; sourceTree = "<group>"; };
 		72F7B5B61399D3CD0025BA50 /* SandboxTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SandboxTests.h; sourceTree = "<group>"; };
 		72F7B5B81399D3CE0025BA50 /* SandboxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SandboxTests.m; sourceTree = "<group>"; };
+		72F7B5C21399D73C0025BA50 /* SandboxUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SandboxUtilities.h; sourceTree = "<group>"; };
+		72F7B5C31399D73C0025BA50 /* SandboxUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SandboxUtilities.m; sourceTree = "<group>"; };
+		72F7B5CD1399FF8C0025BA50 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		72F7B5D01399FFC40025BA50 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		72F7B5D2139A007B0025BA50 /* SQLiteWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; path = SQLiteWrapper.h; sourceTree = "<group>"; };
+		72F7B5D3139A007B0025BA50 /* SQLiteWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQLiteWrapper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72F7B5D11399FFC40025BA50 /* libsqlite3.dylib in Frameworks */,
 				72F7B58A1399D3CD0025BA50 /* UIKit.framework in Frameworks */,
 				72F7B58C1399D3CD0025BA50 /* Foundation.framework in Frameworks */,
 				72F7B58E1399D3CD0025BA50 /* CoreGraphics.framework in Frameworks */,
@@ -84,6 +94,8 @@
 		72F7B57A1399D3CD0025BA50 = {
 			isa = PBXGroup;
 			children = (
+				72F7B5D01399FFC40025BA50 /* libsqlite3.dylib */,
+				72F7B5CD1399FF8C0025BA50 /* libsqlite3.0.dylib */,
 				72F7B58F1399D3CD0025BA50 /* Sandbox */,
 				72F7B5AF1399D3CD0025BA50 /* SandboxTests */,
 				72F7B5881399D3CD0025BA50 /* Frameworks */,
@@ -113,6 +125,8 @@
 		72F7B58F1399D3CD0025BA50 /* Sandbox */ = {
 			isa = PBXGroup;
 			children = (
+				72F7B5D2139A007B0025BA50 /* SQLiteWrapper.h */,
+				72F7B5D3139A007B0025BA50 /* SQLiteWrapper.m */,
 				72F7B5981399D3CD0025BA50 /* SandboxAppDelegate.h */,
 				72F7B5991399D3CD0025BA50 /* SandboxAppDelegate.m */,
 				72F7B59B1399D3CD0025BA50 /* MainWindow.xib */,
@@ -120,6 +134,8 @@
 				72F7B59F1399D3CD0025BA50 /* SandboxViewController.m */,
 				72F7B5A11399D3CD0025BA50 /* SandboxViewController.xib */,
 				72F7B5901399D3CD0025BA50 /* Supporting Files */,
+				72F7B5C21399D73C0025BA50 /* SandboxUtilities.h */,
+				72F7B5C31399D73C0025BA50 /* SandboxUtilities.m */,
 			);
 			path = Sandbox;
 			sourceTree = "<group>";
@@ -266,6 +282,8 @@
 				72F7B5971399D3CD0025BA50 /* main.m in Sources */,
 				72F7B59A1399D3CD0025BA50 /* SandboxAppDelegate.m in Sources */,
 				72F7B5A01399D3CD0025BA50 /* SandboxViewController.m in Sources */,
+				72F7B5C41399D73C0025BA50 /* SandboxUtilities.m in Sources */,
+				72F7B5D4139A007B0025BA50 /* SQLiteWrapper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +382,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sandbox/Sandbox-Prefix.pch";
 				INFOPLIST_FILE = "Sandbox/Sandbox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -377,6 +396,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Sandbox/Sandbox-Prefix.pch";
 				INFOPLIST_FILE = "Sandbox/Sandbox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
@@ -446,6 +466,7 @@
 				72F7B5BE1399D3CE0025BA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72F7B5BF1399D3CE0025BA50 /* Build configuration list for PBXNativeTarget "SandboxTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +475,7 @@
 				72F7B5C11399D3CE0025BA50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

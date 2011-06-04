@@ -6,11 +6,14 @@
 //  Copyright 2011 ashramsey. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+static NSString * const kSandboxUtilitiesVersion = @"1.0";
+static NSString * const kAlertTitle = @"Sandbox";
+static BOOL const kMessageActive = YES;
 
+//populated from loadDidView
+UITextView * messageTextView;
 
-@interface SandboxUtilities : NSObject {
-    
-}
-
-@end
+void message(NSString *format, ...);
+void alertMessage(NSString *format, ...);
+NSString * flattenHTML(NSString * html);
+NSString * trimString(NSString * string);

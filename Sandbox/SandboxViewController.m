@@ -10,6 +10,13 @@
 
 @implementation SandboxViewController
 
+@synthesize textView;
+
+- (void) sandbox {
+    message(@"Sandbox version %@", kSandboxUtilitiesVersion);
+}
+
+
 - (void)dealloc
 {
     [super dealloc];
@@ -25,13 +32,13 @@
 
 #pragma mark - View lifecycle
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
+    extern UITextView *messageTextView;
+    messageTextView = textView;
+    textView.font = [UIFont systemFontOfSize:12];
+    [self sandbox];
 }
-*/
 
 - (void)viewDidUnload
 {
